@@ -1,0 +1,40 @@
+body {
+  background-color:#fff;
+}
+#events-container {
+  margin-top:30px;
+  /*margin-left:60px;*/
+
+}
+.event-row {
+  margin-bottom:40px;
+
+}
+.event-details {
+  margin-right:60px;
+}
+
+ iframe{
+border: solid 1px;
+   margin-top:14px;
+
+   height:280px;
+   width:75%
+}
+.map-iframe {
+margin-right:100px;
+}
+
+.center {
+  margin: auto;
+  width:100%;
+}
+
+#footer {
+  margin:auto;
+  /*width:100%;*/
+  padding-top:100px;
+  padding-bottom:20px;
+  opacity:85%;
+  color:#ccc;
+}

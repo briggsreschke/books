@@ -1,0 +1,114 @@
+
+/*foo*/
+    @import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+    @import url('https://fonts.googleapis.com/css?family=Pacifico');
+    @import url('https://fonts.googleapis.com/css?family=Amatic SC');
+    @import url('https://fonts.googleapis.com/css?family=Ruluko&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
+    html, body{
+      /*background-color:#ccc;*/
+      scroll-behavior: smooth;
+      background:#ddd;
+
+/*background: -webkit-linear-gradient(bottom, #ccc, #EEEEEE);
+background: -moz-linear-gradient(bottom, #ccc, #EEEEEE);
+background: linear-gradient(to top, #ccc, #EEEEEE);*/
+    }
+
+.navbar {
+  margin-bottom:20px;
+}
+
+      /* --------------------------------------------*/
+      /* jumbotron for index.html */
+      /* --------------------------------------------*/
+
+
+
+    #about-author {
+      margin-top:35px;
+        padding-top:30px;
+        padding-bottom:15px;
+        padding-left:30px;
+        padding-right: 30px;
+        /*color:#484848;*/
+        /*background:#912CEE;*/
+        background:	#a997df;
+        /*border: 1px solid black;*/
+
+        -webkit-box-shadow: 0 0px 0px 1px #999;
+        -moz-box-shadow: 0 0px 0px 1px #999;
+        box-shadow: 0 10px  #999;
+      }
+
+      #about-illustrator {
+        padding-bottom:15px;
+        padding-left:30px;
+        padding-top:30px;
+        padding-right: 30px;
+        background-color: #fbfbfb;
+        /*background-color: #fbfbf8;*/
+        border-style: hidden;
+        margin-top:0px !important;
+        /*border: 1px solid black;*/
+
+
+      }
+
+
+
+h1 {
+  font-weight:600;
+  padding-bottom:25px;
+}
+
+p {
+  shadow:none;
+  font-size: 1em;
+}
+#author-title {
+  padding-bottom:10px;
+  color:#fff;
+}
+
+
+#author-text {
+  color:#fff;
+}
+
+#illustrator-title {
+  padding-bottom:10px;
+  color:#787878;
+
+}
+
+#illustrator-text {
+  color:#787878;
+
+}
+
+
+.center {
+  height:auto;
+  width:100%;
+}
+
+hr {
+  margin-top: 0rem;
+  padding-top:0px;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#outer-container {
+  width:85%;
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #about-author{width:90%;}
+  #about-illustrator{width:90%;} /*1rem = 16px*/
+
+}

@@ -1,0 +1,159 @@
+
+
+
+.bookshelf {
+  /*width:75%;*/
+  padding-left:30px;
+  padding-top:30px;
+  padding-right:30px;
+  /*border:solid 1px; */
+  /*box-shadow: 4px 8px 6px -6px #999;*/
+
+ /*background-color:#bae1ff;*/
+}
+
+.bookshelf-background {
+      opacity:0.89;
+
+}
+@media screen and (orientation:portrait) {
+  .bookshelf-background {
+    background-color: #92ace5;
+
+  }
+  .bookshelf {
+    border-radius:3px;
+  }
+
+
+  .blurb-background {
+      background-color: #FFB448;
+      display:none;
+    }
+}
+
+
+@media screen and (orientation:landscape) {
+  .bookshelf-background {
+    background-color: #FFB448;
+  }
+  .blurb-background {
+
+    background-color: #92ace5;
+  }
+}
+
+@media (min-width: 544px) {
+  p {font-size:.5rem;} /*1rem = 16px*/
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  p {font-size:1rem;} /*1rem = 16px*/
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  p {font-size:1rem;width:100%} /*1rem = 16px*/
+  #outer-container {margin-top:40px;}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  p {font-size:1.2rem;width:100%;} /*1rem = 16px*/
+  #outer-container {margin-top:40px;}
+}
+
+
+.img-responsive {
+  margin: 0 auto;
+  margin-bottom:30px;
+}
+
+
+.container img {
+  opacity:2;
+   object-fit:contain;
+
+}
+.img-fluid {
+   max-width:100%;
+   height:auto;
+}
+
+
+body {
+  background-color:#eee;
+  opacity:.95;
+}
+
+a.book-link:hover {
+    opacity:55%;
+}
+
+.navbar {
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+
+
+}
+
+a.nav-link:hover {
+            color: #dddddd !important;
+}
+
+a.nav-link:active {
+  color:#ccc !important;
+}
+
+a.social-media-icons:hover {
+  color: #fafafa;
+}
+.container {
+  padding-top:10px;
+ background-color:#eee;
+  /*margin-left:0px;*/
+}
+
+
+
+.center {
+  margin: auto;
+  width:85%;
+}
+#footer {
+  margin:auto;
+  /*width:100%;*/
+  padding-top:100px;
+  opacity:85%;
+  color:#ccc;
+}
+a.footer-mail:hover {
+  color:#9999 !important;
+}
+
+.rotate {
+
+  transform: rotate(-3deg);
+
+
+  /* Legacy vendor prefixes that you probably don't need... */
+
+  /* Safari */
+  -webkit-transform: rotate(-3deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-3deg);
+
+  /* IE */
+  -ms-transform: rotate(-3deg);
+
+  /* Opera */
+  -o-transform: rotate(-3deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}

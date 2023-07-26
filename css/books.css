@@ -1,0 +1,60 @@
+body {
+  background-color: #fff;
+
+}
+#book-page-layout {
+  margin-top:35px;
+  margin-bottom: 20px;
+  padding-right:40px;
+
+}
+
+.book_description {
+  padding-top: 20px;
+  margin-left:0px;
+  font-family: 'Arapey', serif;
+  color:#666;
+  font-size:1.2em;
+}
+.book_praise {
+  margin-top: 15px;
+  color:#888;
+  font-size:1.2em;
+}
+.center {
+  margin: auto;
+  width:80%;
+}
+
+.books-container {
+  /*background: linear-gradient(to right, #FFFF99, #fff); */
+
+  opacity: 1;
+  padding-top:15px;
+  padding-bottom:15px;
+  border: 1px solid grey;
+}
+
+.book-borders {
+  border: 2px solid grey;
+}
+
+.hr-margins {
+  margin-bottom:20px;
+}
+
+.buy-button {
+  margin-top:5px;
+  margin-left:20px;
+  margin-bottom: 10px;
+}
+
+.amazon-reviews {
+  font-style: italic;
+  font-weight: lighter;
+  margin-left:20px;
+  margin-top:20px;
+}
+.btn {
+  margin-bottom:10px;
+}
